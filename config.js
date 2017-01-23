@@ -53,7 +53,7 @@ module.exports = {
     //'comicbooklover',
     //'diffmerge',
     //'dropbox',
-    //'evernote',
+    'evernote',
     'gpgtools',
     //'ireadfast',
     'iterm2',
@@ -66,7 +66,7 @@ module.exports = {
     'the-unarchiver',
     //'torbrowser',
     //'transmission',
-    //'vlc',
+    'vlc',
     'xquartz'
   ],
   gem: [

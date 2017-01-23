@@ -1,29 +1,160 @@
+eval "$(/Users/jreyes/Projects/owl/bin/owl init -)"
 # Set vim as default editor (vi is the default otherwise)
 export EDITOR="vim"
 bindkey -v
 
 #########################################################################
-# Temporary aliases useful for demos, other current projects
-#########################################################################
-export MYTEMP=~/Documents/Temp
-export MYCODE=~/Documents/Code
-export MYSCRATCH=~/Documents/Temp/Scratch
-export MYDOWNLOADS=~/Downloads
-export MYDOCUMENTS=~/Documents
-export MYDEVAPPS=/Applications/Dev
-
-#########################################################################
 # Tool paths
 #########################################################################
-#export CLOJURE_HOME=/Applications/Dev/clojure
-#export EC2_HOME=/Applications/Dev/ec2-api-tools-1.3-46266
-#export JAVA_HOME=/Library/Java/Home
-#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
-#export GOPATH=/usr/local/bin
-#export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 #########################################################################
 # Tool settings
 #########################################################################
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 export NVM_DIR=~/.nvm
+
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export GA_API_KEY="AIzaSyB8pNKGKnDdEtvSlV_6LSOLKGYm-Ig1E3E"
+export GA_CLIENT_ID="688456758850.apps.googleusercontent.com"
+export GOOGLE_AUTH_DOMAIN=jreyes.ngrok.com
+export EXECJS_RUNTIME='Node'
+
+# Twilio-Mixpanel Vars
+export MIXPANEL_API_KEY=2d4240e215076f9d51b5cae956a2964a
+export MIXPANEL_API_SECRET=a1df392f8239993d5f15c15f8516737c
+
+# Redshift data warehouse connection
+export REDSHIFT_DB_URL="postgres://twilioreader:veek-9ug-hyt-IN-1cs-yok-o4z-ji@warehouse.corp.twilio.com:5439/twiliowarehouse"
+export REDSHIFT_HOST=warehouse.corp.twilio.com
+export REDSHIFT_PORT=5439
+export REDSHIFT_USER=twilioreader
+export REDSHIFT_PASSWORD=veek-9ug-hyt-IN-1cs-yok-o4z-ji
+export REDSHIFT_DATABASE=twiliowarehouse
+
+# social-jukebox vars
+export RDIO_KEY="2nefads2ubwurhpvuw3vxq4g"
+export RDIO_SECRET="qSTXJmrfe8"
+export ADMIN_NUMBERS="2066505813,2068543413"
+export DATABASE_URL_VAR="HEROKU_POSTGRESQL_BLUE_URL"
+export DB_URL="postgresql://postgres:postgres@localhost"
+export MONGO_URL="mongodb://jreyes:up7fish@dogen.mongohq.com:10039/tangible-mongodb-55"
+export MONGO_SANTA_URL="mongodb://jreyes:}F;NXKa6SLTNMb9@aws-us-west-2-portal.1.dblayer.com:15438/santa?ssl=true"
+export AUTHY_API_KEY_OLD="X6sPsl4KYVFXdaoOEZ0eFy6a9seLTkBSsmxQfDq2tHk"
+export AUTHY_API_KEY="FCavAp1Avc6aTZSRUmR1lMN3biazDCu1"
+export AUTHY_TOKEN="FCavAp1Avc6aTZSRUmR1lMN3biazDCu1"
+
+export TWILIO_JUKEBOX_NUMBER="14427776667"
+export FLASK_SECRET_KEY="iamallthedaysthatyouchoosetoignore"
+export AWS_JUKEBOX_KEY="AKIAIT53CJ7NFQRSY26Q"
+export AWS_JUKEBOX_SECRET="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"
+export AWS_ASSOCIATE_CODE="hallojukeb-20"
+export JUKEBOX_DOMAIN="halloween-jukebox.herokuapp.com"
+export POINTS_NUMBER="16468872835"
+export SESSION_SECRET='oSDL4To-kqYOZeENo1Z3dPJt'
+export OBBLED_APP_ID="331719516980095"
+export OBBLED_SECRET="0f38940fa8d40422e2b83bfd5e801017"
+export ALCHEMY_KEY="306a5ea1f28f70f54862a3c3937a659728d2acb2"
+export PERSONAL_PHONE="12066505813"
+export AGENT_NUMBER="12066505813"
+export AGENT_PHONE_NUMBER="12066505813"
+
+# good news bot
+export NEWS_NUMBER="16468872835"
+
+# slack bot
+export CLIPPY_USER="U0K7L6MEC"
+export CLIPPY_NOTIFICATIONS_CHANNEL="D0K7L6MEU"
+export DEVNET_CHANNEL_NAME="mkg-developer-network"
+export DEVNET_CHANNEL="C0AQRNP5X"
+export SLACK_TOKEN="xoxb-19258225488-lHskErLPvm5m4FosNtp7Vyq1"
+export SLACK_URL="https://hooks.slack.com/services/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"
+
+# generic pusher vars
+export PUSHER_APP_ID="56974"
+export PUSHER_KEY="46c5ba280c64d8511011"
+export PUSHER_SECRET="0ca8988e70af4c73d411"
+
+# sms barista vars
+export PUSHER_BARISTA_URL="http://c191d04a7b2cd5157587:b46921bba4bc2d6b0d5b@api.pusherapp.com/apps/123779"
+export PUSHER_BARISTA_KEY="c191d04a7b2cd5157587"
+export BARISTA_NUMBER="16197369662"
+export ENABLE_SMS="Yes"
+export SUPERVISOR_NUMBER="12066505813"
+
+# et planet numbers
+export PLANET3_NUMBER="+12027336637"
+export PLANET2_NUMBER="+12027336386"
+export PLANET1_NUMBER="+12024173378"
+
+# RRK numbers
+export RR_CONFERENCE_NUMBER="+14427776664"
+
+# anonymous communications vars
+export ANONYMOUS_APPLICATION_SID="APc07b0a4b10a3abb72aed4ced9dd504c2"
+
+# jarodreyes-site
+export GITHUB_LOGIN="jarodreyes"
+export GITHUB_PASSWORD="up7fish"
+export 1PASSWORD_KEY="A3-G4TQTW-PZ6SN8-MM9FH-W7TY4-3FW3D-F66P9"
+
+# aws - jardiohead
+export AWS_ACCESS_KEY="AKIAIQ7SVHSGZOB3JYDA"
+export AWS_SECRET="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"
+
+# github-timeline
+export CODEHQ_LOGIN="jreyes"
+export CODEHQ_PASSWORD="njrWq04FknBundbcMnLH"
+export GHT_GOOGLE_CLIENT_ID="823618424176-2fi0c21cviea7kapp2ig20rku22m53aa.apps.googleusercontent.com"
+export GHT_GOOGLE_CLIENT_SECRET="S2HD6OWOpDgoIeu00HcbFskH"
+export GHT_GOOGLE_PROFILEID="5539647"
+export GHT_GOOGLE_APP_NAME="deved-milestone"
+export MIXPANEL_API_KEY="2d4240e215076f9d51b5cae956a2964a"
+export MIXPANEL_API_SECRET="a1df392f8239993d5f15c15f8516737c"
+
+# team 37 dashboar
+# console.developers.google.com - persona-dash
+export GOOGLE_37_KEY="580228067055-hoe3d727mpn4h4n7qrv56cej5n1bj8oq.apps.googleusercontent.com"
+export GOOGLE_37_SECRET="js4Ab6vrAjWb5R53kAJIDHQh"
+export YOUTUBE_CHANNEL_KEY="UCWh3G9LZmZ3q_xWOyPpn8ag"
+
+# The Northpole Project
+export MUSIC_NUMBER="+15017124613"
+export ELF_NUMBER="+16468872835"
+export SENDGRID_API_KEY="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"
+
+export PARTICLE_ACCESS_TOKEN="fa5a3bf525f90904fe3e3b0453b2a56a7842f1ca"
+export REDDIT_USERNAME="jardiohead"
+export REDDIT_PW="fisher00"
+
+export OSCAR_APP_ID="108169"
+export OSCAR_KEY="6d79e1e4204478eefbef"
+export OSCAR_SECRET="0ab25da6993bf1270ed2"
+export INVISIBLE_NUMBER="18609474646"
+export MMS_NUMBER="18445152667"
+export FESTIVUS_APP="60716"
+export FESTIVUS_KEY="3c75ce0c7941ced00a14"
+export FESTIVUS_SECRET="6c6c1a6feede931b4bd9"
+export RONIN_NUMBER="13099486868"
+export BRANDED_NUMBER="19792726399"
+export TACOS_NUMBER="16692382267"
+export XMAS_NUMBER="15023169627"
+export COWORK_NUMBER="14242263911"
+export TWILIO_RR_NUMBER="14427776664"
+export TWILIO_TEST_AUTH_TOKEN="a433e3dbe7aa3a0e6be24a703cd6087a"
+export TWILIO_TEST_ACCOUNT_SID="ACe6d3b9b235e838c17ffb132b2161dcbd"
+export TWITTER_KEY="So2bzx5nzJDKNYwOmBSYnZKsj"
+export TWITTER_SECRET="duyIOPfOz4a4ULhyGbULW2RBrBqsiMPRr7Qo5FNkFeLukx2lhg"
+export TWITTER_ACCESS_TOKEN="23031193-cXCbnlMWR6H6qyiSoTFrG3OHtCkv0rBFUbtx64Msr"
+export TWITTER_ACCESS_SECRET="VnVwYHz6SydgqHlwX05yWSV3Ag2DyX3YvN3DgR5R42dTJ"
+export TWILIO_AUTH_TOKEN="c60c57f43f10ede1c63b29873308abfb"
+export TWILIO_ACCOUNT_SID="AC38cf10e53d331ec9ce14db86deb3bf29"
+export TWILIO_NUMBER="16572152763"
+export TWIML_APPLICATION_SID="APe438b254ae03e9e3f50ffafaa4ec4e33"
+export TWILIO_PHONE_NUMBER="16572152763"
+export TWILIO_SID="AC648d937704b94309822578b85ff1227f"
+export TWILIO_IPM_SERVICE_SID="IS5dddcce470024fd08500eb15559498a5"
+export TWILIO_API_KEY="SK3bef24fa62fc1f4a9e1820c2ad88f2fe"
+export TWILIO_API_SECRET="8vK2ZcJdrMwg8WHCeHqTTw7h5WsJIhq8"
+
+
