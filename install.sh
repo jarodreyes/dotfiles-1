@@ -761,7 +761,7 @@ running "Remove the animation when hiding/showing the Dock"
 defaults write com.apple.dock autohide-time-modifier -float 0;ok
 
 running "Automatically hide and show the Dock"
-defaults write com.apple.dock autohide -bool true;ok
+defaults write com.apple.dock autohide -bool false;ok
 
 running "Make Dock icons of hidden applications translucent"
 defaults write com.apple.dock showhidden -bool true;ok
