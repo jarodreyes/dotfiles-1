@@ -3,6 +3,11 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Release History](#release-history)  
+  - [v5.1.0](#v510)
+  - [v5.0.0](#v500)
+  - [v4.4.2](#v442)
+  - [v4.4.1](#v441)
+  - [v4.4.0](#v440)
   - [v4.3.0](#v430)
   - [v4.2.0](#v420)
   - [v4.1.1](#v411)
@@ -22,6 +27,35 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Release History
+
+## v5.1.0
+ * update passwordless sudo to use method in [issue #35](https://github.com/atomantic/dotfiles/issues/35)
+
+## v5.0.0
+ * each segment of setup now requires positive user input to change the system
+ * replace `NERDtree` in vim with `netrw`
+ * add spell check to `vim`
+ * fix package installs (run in series to prevent homebrew from stepping on itself in parallel)
+ * update /etc/hosts file from someonewhocares.org
+
+## v4.4.2
+ * add .iterm2_shell_integration.zsh
+
+## v4.4.1
+ * re-enable notification center
+ * fix gitshots optional ability by renaming post-commit -> gitshot-pc
+
+## v4.4.0
+ * cleanup readme and alphabetize software installation for better fork management and listing
+ * disable vim YouCompleteMe Bundle (wasn't using it anyway and was causing installation problems on some machines)
+ * remove yo, generator-dockerize, box-sync from software installs
+ * install node stable (rather than old 4.x.x version)
+ * make gitshots optional (and only install `imagesnap` and `imagemagick` if this is on)
+ * fix passwordless sudo for Sierra (optional)
+ * prompt to overwrite /etc/hosts with someonewhocares.org hosts file (saved in ./configs/hosts in this project)
+ * fix default wallpaper in Sierra (Sierra 2)
+ * remove sudden motion disable (already disabled: https://github.com/mathiasbynens/dotfiles/pull/755/files)
+ * no longer setting hibernation mode to 0 (leaving default 3): https://github.com/mathiasbynens/dotfiles/commit/a3f91f67e07b6b31760b52320e0e890f93ff4e97#commitcomment-20715991
 
 ## v4.3.0
  * vim installation fix

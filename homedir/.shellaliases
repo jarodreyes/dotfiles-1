@@ -131,3 +131,15 @@ alias grok="ngrok http -subdomain=jreyes"
 alias nodegrok="tab ngrok http -subdomain=jreyes 3000 && nodemon app.js"
 
 alias lgrok="ngrok http -host-header=myapp.dev -subdomain=jreyes"
+alias jsonfix="pbpaste | jq . | pbcopy"
+
+alias lookbusy="cat /dev/urandom | hexdump -C | grep \"34 32\""
+alias td="todo.sh"
+alias tda="todo.sh add"
+alias tdl="todo.sh list"
+alias tdd="todo.sh do"
+
+alias k='kubectl'
+alias kp='kubectl get pods -o wide'
+alias kdp='kubectl describe pod'
+alias kdn='kubectl describe node'
