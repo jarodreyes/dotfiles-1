@@ -548,8 +548,8 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 ################################################
 bot "Standard System Changes"
 ################################################
-running "always boot in verbose mode (not MacOS GUI mode)"
-sudo nvram boot-args="-v";ok
+# running "always boot in verbose mode (not MacOS GUI mode)"
+# sudo nvram boot-args="-v";ok
 
 running "allow 'locate' command"
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist > /dev/null 2>&1;ok
