@@ -125,7 +125,7 @@ alias o="open"
 alias oo="open ."
 # Runs ngrok, using my custom subdomain
 # to use `grok <port_number>` like `grok 3000`.
-alias grok="ngrok http -subdomain=jreyes"
+alias grok="ngrok http -subdomain=jarod"
 
 # Runs ngok, on my subdomain, on port 3000, then starts up express app.
 alias nodegrok="tab ngrok http -subdomain=jreyes 3000 && nodemon app.js"

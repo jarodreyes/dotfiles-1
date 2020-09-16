@@ -64,7 +64,7 @@ module.exports = {
     'evernote',
     'flickr-uploadr',
     'gpgtools',
-    'google-drive',
+    'google-backup-and-sync',
     'flux',
     'gpg-suite',
     //'ireadfast',
@@ -86,6 +86,7 @@ module.exports = {
     //'torbrowser',
     //'transmission',
     'transmit',
+    'tweeten',
     'vlc',
     'visual-studio-code',
     'xquartz'
